@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43139B7227AB3FA40000C0A4 /* ConferenceVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139B7127AB3FA40000C0A4 /* ConferenceVideoCell.swift */; };
+		43139B7427AB3FDB0000C0A4 /* ConferenceVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139B7327AB3FDB0000C0A4 /* ConferenceVideoController.swift */; };
+		431BCB972770E16B00E97708 /* PochtaVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431BCB962770E16B00E97708 /* PochtaVCViewController.swift */; };
+		431BCB992770E1EA00E97708 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431BCB982770E1EA00E97708 /* AccountViewController.swift */; };
+		431D387827A9DABF003FB893 /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D387727A9DABF003FB893 /* TitleSupplementaryView.swift */; };
+		431DABA7276226AF008265A7 /* Gerbera-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABA6276226AF008265A7 /* Gerbera-Medium.ttf */; };
+		431DABA8276226AF008265A7 /* Gerbera-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABA6276226AF008265A7 /* Gerbera-Medium.ttf */; };
+		431DABA9276226AF008265A7 /* Gerbera-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABA6276226AF008265A7 /* Gerbera-Medium.ttf */; };
+		431DABAB276226CC008265A7 /* Gerbera-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAA276226CC008265A7 /* Gerbera-Bold.ttf */; };
+		431DABAC276226CC008265A7 /* Gerbera-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAA276226CC008265A7 /* Gerbera-Bold.ttf */; };
+		431DABAD276226CC008265A7 /* Gerbera-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAA276226CC008265A7 /* Gerbera-Bold.ttf */; };
+		431DABAF276226DA008265A7 /* Gerbera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAE276226DA008265A7 /* Gerbera.ttf */; };
+		431DABB0276226DA008265A7 /* Gerbera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAE276226DA008265A7 /* Gerbera.ttf */; };
+		431DABB1276226DA008265A7 /* Gerbera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 431DABAE276226DA008265A7 /* Gerbera.ttf */; };
+		433DFC9F27A04637005E9353 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433DFC9E27A04637005E9353 /* GoogleService-Info.plist */; };
+		4345192A2798578E0021D6E0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434519292798578E0021D6E0 /* OnboardingViewController.swift */; };
+		4345192E27986C000021D6E0 /* onboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345192D27986C000021D6E0 /* onboardingSlide.swift */; };
+		435BBAA7279FF42F00DB31F4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BBAA6279FF42F00DB31F4 /* OnboardingCollectionViewCell.swift */; };
+		4380E6A0275668FD00C43CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E69F275668FD00C43CC1 /* AppDelegate.swift */; };
+		4380E6A2275668FD00C43CC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6A1275668FD00C43CC1 /* SceneDelegate.swift */; };
+		4380E6A4275668FD00C43CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6A3275668FD00C43CC1 /* ViewController.swift */; };
+		4380E6A7275668FD00C43CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4380E6A5275668FD00C43CC1 /* Main.storyboard */; };
+		4380E6AA275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6A8275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodeld */; };
+		4380E6AC275668FF00C43CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4380E6AB275668FF00C43CC1 /* Assets.xcassets */; };
+		4380E6AF275668FF00C43CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4380E6AD275668FF00C43CC1 /* LaunchScreen.storyboard */; };
+		4380E6BA275668FF00C43CC1 /* SB_Santehnik_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6B9275668FF00C43CC1 /* SB_Santehnik_AppTests.swift */; };
+		4380E6C4275668FF00C43CC1 /* SB_Santehnik_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6C3275668FF00C43CC1 /* SB_Santehnik_AppUITests.swift */; };
+		4380E6C6275668FF00C43CC1 /* SB_Santehnik_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6C5275668FF00C43CC1 /* SB_Santehnik_AppUITestsLaunchTests.swift */; };
+		4380E6D427566AAB00C43CC1 /* TestAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6D327566AAB00C43CC1 /* TestAuthView.swift */; };
+		4380E6D727566E4600C43CC1 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6D627566E4600C43CC1 /* ServiceViewController.swift */; };
+		4380E6DC275678A200C43CC1 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6DB275678A200C43CC1 /* CarouselCollectionView.swift */; };
+		4380E6DE275678D700C43CC1 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6DD275678D700C43CC1 /* CarouselCollectionViewCell.swift */; };
+		4380E6E0275678FA00C43CC1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6DF275678FA00C43CC1 /* Models.swift */; };
+		4380E6E32757824200C43CC1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6E22757824100C43CC1 /* SearchView.swift */; };
+		4380E6E52757999D00C43CC1 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6E42757999D00C43CC1 /* ServiceModel.swift */; };
+		4380E6E82757A1F400C43CC1 /* OrderingStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6E72757A1F400C43CC1 /* OrderingStep1View.swift */; };
+		4380E6EA2757AB1100C43CC1 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380E6E92757AB1100C43CC1 /* ServiceCell.swift */; };
+		43E9108B278C4999001363B3 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9108A278C4999001363B3 /* AuthManager.swift */; };
+		43E9108D278C6924001363B3 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9108C278C6924001363B3 /* AuthViewController.swift */; };
+		43E91091278DC090001363B3 /* OrderingStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E91090278DC090001363B3 /* OrderingStep2View.swift */; };
+		557CEC60282E62D400024532 /* GeneralOrderInfoPhotosFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC41282E62D400024532 /* GeneralOrderInfoPhotosFooterReusableView.swift */; };
+		557CEC61282E62D400024532 /* GeneralOrderInfoTaskDescriptionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC42282E62D400024532 /* GeneralOrderInfoTaskDescriptionHeaderReusableView.swift */; };
+		557CEC62282E62D400024532 /* GeneralOrderInfoGlobalHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC43282E62D400024532 /* GeneralOrderInfoGlobalHeaderReusableView.swift */; };
+		557CEC63282E62D400024532 /* GeneralOrderInfoPhotosItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC44282E62D400024532 /* GeneralOrderInfoPhotosItemCollectionViewCell.swift */; };
+		557CEC64282E62D400024532 /* GeneralOrderInfoPhotosHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC45282E62D400024532 /* GeneralOrderInfoPhotosHeaderReusableView.swift */; };
+		557CEC65282E62D400024532 /* GeneralOrderInfoPhotosAddCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC46282E62D400024532 /* GeneralOrderInfoPhotosAddCollectionViewCell.swift */; };
+		557CEC66282E62D400024532 /* GeneralOrderInfoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC47282E62D400024532 /* GeneralOrderInfoCollectionViewController.swift */; };
+		557CEC67282E62D400024532 /* GeneralOrderInfoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC48282E62D400024532 /* GeneralOrderInfoCollectionView.swift */; };
+		557CEC68282E62D400024532 /* GeneralOrderInfoTaskDescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC49282E62D400024532 /* GeneralOrderInfoTaskDescriptionCollectionViewCell.swift */; };
+		557CEC69282E62D400024532 /* ChooseOrderDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC4B282E62D400024532 /* ChooseOrderDateView.swift */; };
+		557CEC6A282E62D400024532 /* ChooseOrderDateTimePickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC4C282E62D400024532 /* ChooseOrderDateTimePickerItem.swift */; };
+		557CEC6B282E62D400024532 /* ChooseOrderDateAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC4D282E62D400024532 /* ChooseOrderDateAvailabilityView.swift */; };
+		557CEC6C282E62D400024532 /* ChooseOrderDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC4E282E62D400024532 /* ChooseOrderDateViewController.swift */; };
+		557CEC6D282E62D400024532 /* ChooseOrderDateBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC4F282E62D400024532 /* ChooseOrderDateBottomView.swift */; };
+		557CEC6E282E62D400024532 /* ChooseOrderDateDayPickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC50282E62D400024532 /* ChooseOrderDateDayPickerItem.swift */; };
+		557CEC6F282E62D400024532 /* AddNewAddressGlobalHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC52282E62D400024532 /* AddNewAddressGlobalHeaderReusableView.swift */; };
+		557CEC70282E62D400024532 /* AddNewAddressTextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC53282E62D400024532 /* AddNewAddressTextFieldCollectionViewCell.swift */; };
+		557CEC71282E62D400024532 /* AddNewAddressTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC54282E62D400024532 /* AddNewAddressTextField.swift */; };
+		557CEC72282E62D400024532 /* AddNewAddressCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC55282E62D400024532 /* AddNewAddressCollectionView.swift */; };
+		557CEC73282E62D400024532 /* AddNewAddressCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC56282E62D400024532 /* AddNewAddressCollectionViewController.swift */; };
+		557CEC74282E62D400024532 /* ProcessedOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC58282E62D400024532 /* ProcessedOrderViewController.swift */; };
+		557CEC75282E62D400024532 /* ProcessedOrderBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC59282E62D400024532 /* ProcessedOrderBottomView.swift */; };
+		557CEC76282E62D400024532 /* ProcessedOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC5A282E62D400024532 /* ProcessedOrderView.swift */; };
+		557CEC77282E62D400024532 /* ChooseOrderAddressCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC5C282E62D400024532 /* ChooseOrderAddressCollectionView.swift */; };
+		557CEC78282E62D400024532 /* ChooseOrderAddressAddCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC5D282E62D400024532 /* ChooseOrderAddressAddCollectionViewCell.swift */; };
+		557CEC79282E62D400024532 /* ChooseOrderAddressItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC5E282E62D400024532 /* ChooseOrderAddressItemCollectionViewCell.swift */; };
+		557CEC7A282E62D400024532 /* ChooseOrderAddressCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC5F282E62D400024532 /* ChooseOrderAddressCollectionViewController.swift */; };
+		557CEC7F282E631900024532 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC7B282E631900024532 /* UIFont+Additions.swift */; };
+		557CEC80282E631900024532 /* BigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC7C282E631900024532 /* BigButton.swift */; };
+		557CEC81282E631900024532 /* NavigationItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC7D282E631900024532 /* NavigationItemTitleView.swift */; };
+		557CEC82282E631900024532 /* OutlineBigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CEC7E282E631900024532 /* OutlineBigButton.swift */; };
+		6F0AF7C6164E846BDC4104CA /* Pods_SB_Santehnik_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F808848DD4BCCABA8758F1 /* Pods_SB_Santehnik_App.framework */; };
+		C641A77A5ED06BF00CDFB2C8 /* Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D344E2BE6FD7BC2A077CA7 /* Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework */; };
+		C6F5116526604DBC4359853E /* Pods_SB_Santehnik_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED197C4DCCECF62463F7413 /* Pods_SB_Santehnik_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4380E6B6275668FF00C43CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4380E694275668FD00C43CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4380E69B275668FD00C43CC1;
+			remoteInfo = "SB-Santehnik-App";
+		};
+		4380E6C0275668FF00C43CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4380E694275668FD00C43CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4380E69B275668FD00C43CC1;
+			remoteInfo = "SB-Santehnik-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		159568EF045E4207B74D6C12 /* Pods-SB-Santehnik-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-AppTests.debug.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-AppTests/Pods-SB-Santehnik-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2331F2413018DC17E9C02F58 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A80BEBF545052B3C6E59CFC /* Pods-SB-Santehnik-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-App.debug.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-App/Pods-SB-Santehnik-App.debug.xcconfig"; sourceTree = "<group>"; };
+		43139B7127AB3FA40000C0A4 /* ConferenceVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoCell.swift; sourceTree = "<group>"; };
+		43139B7327AB3FDB0000C0A4 /* ConferenceVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoController.swift; sourceTree = "<group>"; };
+		431BCB962770E16B00E97708 /* PochtaVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PochtaVCViewController.swift; sourceTree = "<group>"; };
+		431BCB982770E1EA00E97708 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		431D387727A9DABF003FB893 /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
+		431DABA6276226AF008265A7 /* Gerbera-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gerbera-Medium.ttf"; sourceTree = "<group>"; };
+		431DABAA276226CC008265A7 /* Gerbera-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gerbera-Bold.ttf"; sourceTree = "<group>"; };
+		431DABAE276226DA008265A7 /* Gerbera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gerbera.ttf; sourceTree = "<group>"; };
+		433DFC9E27A04637005E9353 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		434519292798578E0021D6E0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		4345192D27986C000021D6E0 /* onboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingSlide.swift; sourceTree = "<group>"; };
+		435BBAA6279FF42F00DB31F4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4380E69C275668FD00C43CC1 /* SB-Santehnik-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SB-Santehnik-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4380E69F275668FD00C43CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4380E6A1275668FD00C43CC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4380E6A3275668FD00C43CC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4380E6A6275668FD00C43CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4380E6A9275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SB_Santehnik_App.xcdatamodel; sourceTree = "<group>"; };
+		4380E6AB275668FF00C43CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4380E6AE275668FF00C43CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4380E6B0275668FF00C43CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4380E6B5275668FF00C43CC1 /* SB-Santehnik-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SB-Santehnik-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4380E6B9275668FF00C43CC1 /* SB_Santehnik_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SB_Santehnik_AppTests.swift; sourceTree = "<group>"; };
+		4380E6BF275668FF00C43CC1 /* SB-Santehnik-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SB-Santehnik-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4380E6C3275668FF00C43CC1 /* SB_Santehnik_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SB_Santehnik_AppUITests.swift; sourceTree = "<group>"; };
+		4380E6C5275668FF00C43CC1 /* SB_Santehnik_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SB_Santehnik_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4380E6D327566AAB00C43CC1 /* TestAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAuthView.swift; sourceTree = "<group>"; };
+		4380E6D627566E4600C43CC1 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		4380E6DB275678A200C43CC1 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
+		4380E6DD275678D700C43CC1 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		4380E6DF275678FA00C43CC1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4380E6E22757824100C43CC1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4380E6E42757999D00C43CC1 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		4380E6E72757A1F400C43CC1 /* OrderingStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderingStep1View.swift; sourceTree = "<group>"; };
+		4380E6E92757AB1100C43CC1 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		43E9108A278C4999001363B3 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		43E9108C278C6924001363B3 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		43E91090278DC090001363B3 /* OrderingStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderingStep2View.swift; sourceTree = "<group>"; };
+		53E5E298C3F9D4369F23F4FE /* Pods-SB-Santehnik-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-AppTests.release.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-AppTests/Pods-SB-Santehnik-AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		557CEC41282E62D400024532 /* GeneralOrderInfoPhotosFooterReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoPhotosFooterReusableView.swift; sourceTree = "<group>"; };
+		557CEC42282E62D400024532 /* GeneralOrderInfoTaskDescriptionHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoTaskDescriptionHeaderReusableView.swift; sourceTree = "<group>"; };
+		557CEC43282E62D400024532 /* GeneralOrderInfoGlobalHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoGlobalHeaderReusableView.swift; sourceTree = "<group>"; };
+		557CEC44282E62D400024532 /* GeneralOrderInfoPhotosItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoPhotosItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC45282E62D400024532 /* GeneralOrderInfoPhotosHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoPhotosHeaderReusableView.swift; sourceTree = "<group>"; };
+		557CEC46282E62D400024532 /* GeneralOrderInfoPhotosAddCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoPhotosAddCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC47282E62D400024532 /* GeneralOrderInfoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoCollectionViewController.swift; sourceTree = "<group>"; };
+		557CEC48282E62D400024532 /* GeneralOrderInfoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoCollectionView.swift; sourceTree = "<group>"; };
+		557CEC49282E62D400024532 /* GeneralOrderInfoTaskDescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOrderInfoTaskDescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC4B282E62D400024532 /* ChooseOrderDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateView.swift; sourceTree = "<group>"; };
+		557CEC4C282E62D400024532 /* ChooseOrderDateTimePickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateTimePickerItem.swift; sourceTree = "<group>"; };
+		557CEC4D282E62D400024532 /* ChooseOrderDateAvailabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateAvailabilityView.swift; sourceTree = "<group>"; };
+		557CEC4E282E62D400024532 /* ChooseOrderDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateViewController.swift; sourceTree = "<group>"; };
+		557CEC4F282E62D400024532 /* ChooseOrderDateBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateBottomView.swift; sourceTree = "<group>"; };
+		557CEC50282E62D400024532 /* ChooseOrderDateDayPickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderDateDayPickerItem.swift; sourceTree = "<group>"; };
+		557CEC52282E62D400024532 /* AddNewAddressGlobalHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressGlobalHeaderReusableView.swift; sourceTree = "<group>"; };
+		557CEC53282E62D400024532 /* AddNewAddressTextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressTextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC54282E62D400024532 /* AddNewAddressTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressTextField.swift; sourceTree = "<group>"; };
+		557CEC55282E62D400024532 /* AddNewAddressCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressCollectionView.swift; sourceTree = "<group>"; };
+		557CEC56282E62D400024532 /* AddNewAddressCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressCollectionViewController.swift; sourceTree = "<group>"; };
+		557CEC58282E62D400024532 /* ProcessedOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessedOrderViewController.swift; sourceTree = "<group>"; };
+		557CEC59282E62D400024532 /* ProcessedOrderBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessedOrderBottomView.swift; sourceTree = "<group>"; };
+		557CEC5A282E62D400024532 /* ProcessedOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessedOrderView.swift; sourceTree = "<group>"; };
+		557CEC5C282E62D400024532 /* ChooseOrderAddressCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderAddressCollectionView.swift; sourceTree = "<group>"; };
+		557CEC5D282E62D400024532 /* ChooseOrderAddressAddCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderAddressAddCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC5E282E62D400024532 /* ChooseOrderAddressItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderAddressItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		557CEC5F282E62D400024532 /* ChooseOrderAddressCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseOrderAddressCollectionViewController.swift; sourceTree = "<group>"; };
+		557CEC7B282E631900024532 /* UIFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		557CEC7C282E631900024532 /* BigButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigButton.swift; sourceTree = "<group>"; };
+		557CEC7D282E631900024532 /* NavigationItemTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItemTitleView.swift; sourceTree = "<group>"; };
+		557CEC7E282E631900024532 /* OutlineBigButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineBigButton.swift; sourceTree = "<group>"; };
+		B95474BED7F0F37899B1CC97 /* Pods-SB-Santehnik-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-App.release.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-App/Pods-SB-Santehnik-App.release.xcconfig"; sourceTree = "<group>"; };
+		C7F808848DD4BCCABA8758F1 /* Pods_SB_Santehnik_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SB_Santehnik_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D344E2BE6FD7BC2A077CA7 /* Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED197C4DCCECF62463F7413 /* Pods_SB_Santehnik_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SB_Santehnik_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CCED01F581535772A37E76 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4380E699275668FD00C43CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0AF7C6164E846BDC4104CA /* Pods_SB_Santehnik_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6B2275668FF00C43CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F5116526604DBC4359853E /* Pods_SB_Santehnik_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6BC275668FF00C43CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C641A77A5ED06BF00CDFB2C8 /* Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43139B7027AB3F6E0000C0A4 /* New Corousel's Collection */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6D627566E4600C43CC1 /* ServiceViewController.swift */,
+				431D387727A9DABF003FB893 /* TitleSupplementaryView.swift */,
+				43139B7127AB3FA40000C0A4 /* ConferenceVideoCell.swift */,
+				43139B7327AB3FDB0000C0A4 /* ConferenceVideoController.swift */,
+			);
+			path = "New Corousel's Collection";
+			sourceTree = "<group>";
+		};
+		431DAB982762260E008265A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				431DABAE276226DA008265A7 /* Gerbera.ttf */,
+				431DABAA276226CC008265A7 /* Gerbera-Bold.ttf */,
+				431DABA6276226AF008265A7 /* Gerbera-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		43451928279857790021D6E0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				434519292798578E0021D6E0 /* OnboardingViewController.swift */,
+				4345192D27986C000021D6E0 /* onboardingSlide.swift */,
+				435BBAA6279FF42F00DB31F4 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4380E693275668FD00C43CC1 = {
+			isa = PBXGroup;
+			children = (
+				4380E69E275668FD00C43CC1 /* SB-Santehnik-App */,
+				4380E6B8275668FF00C43CC1 /* SB-Santehnik-AppTests */,
+				4380E6C2275668FF00C43CC1 /* SB-Santehnik-AppUITests */,
+				4380E69D275668FD00C43CC1 /* Products */,
+				F05B666BEFDB3AC5F33D7B6F /* Frameworks */,
+				95F00F77A2E26E9171569D9A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4380E69D275668FD00C43CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4380E69C275668FD00C43CC1 /* SB-Santehnik-App.app */,
+				4380E6B5275668FF00C43CC1 /* SB-Santehnik-AppTests.xctest */,
+				4380E6BF275668FF00C43CC1 /* SB-Santehnik-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4380E69E275668FD00C43CC1 /* SB-Santehnik-App */ = {
+			isa = PBXGroup;
+			children = (
+				43139B7027AB3F6E0000C0A4 /* New Corousel's Collection */,
+				433DFC9E27A04637005E9353 /* GoogleService-Info.plist */,
+				43451928279857790021D6E0 /* Onboarding */,
+				43E91089278C4984001363B3 /* Auth */,
+				4380E6E62757A1C800C43CC1 /* Ordering */,
+				4380E6DA2756787000C43CC1 /* Carousels */,
+				4380E6D527566E3100C43CC1 /* Service */,
+				4380E6D227566A7300C43CC1 /* Authorization */,
+				557CEC3F282E62D400024532 /* OrderingFlow */,
+				4380E69F275668FD00C43CC1 /* AppDelegate.swift */,
+				4380E6A1275668FD00C43CC1 /* SceneDelegate.swift */,
+				557CEC7C282E631900024532 /* BigButton.swift */,
+				557CEC7D282E631900024532 /* NavigationItemTitleView.swift */,
+				557CEC7E282E631900024532 /* OutlineBigButton.swift */,
+				557CEC7B282E631900024532 /* UIFont+Additions.swift */,
+				4380E6A3275668FD00C43CC1 /* ViewController.swift */,
+				4380E6A5275668FD00C43CC1 /* Main.storyboard */,
+				4380E6AB275668FF00C43CC1 /* Assets.xcassets */,
+				4380E6AD275668FF00C43CC1 /* LaunchScreen.storyboard */,
+				4380E6B0275668FF00C43CC1 /* Info.plist */,
+				431DAB982762260E008265A7 /* Fonts */,
+				4380E6A8275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodeld */,
+				431BCB962770E16B00E97708 /* PochtaVCViewController.swift */,
+				431BCB982770E1EA00E97708 /* AccountViewController.swift */,
+			);
+			path = "SB-Santehnik-App";
+			sourceTree = "<group>";
+		};
+		4380E6B8275668FF00C43CC1 /* SB-Santehnik-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6B9275668FF00C43CC1 /* SB_Santehnik_AppTests.swift */,
+			);
+			path = "SB-Santehnik-AppTests";
+			sourceTree = "<group>";
+		};
+		4380E6C2275668FF00C43CC1 /* SB-Santehnik-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6C3275668FF00C43CC1 /* SB_Santehnik_AppUITests.swift */,
+				4380E6C5275668FF00C43CC1 /* SB_Santehnik_AppUITestsLaunchTests.swift */,
+			);
+			path = "SB-Santehnik-AppUITests";
+			sourceTree = "<group>";
+		};
+		4380E6D227566A7300C43CC1 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6D327566AAB00C43CC1 /* TestAuthView.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		4380E6D527566E3100C43CC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6E12757821100C43CC1 /* SearchView */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4380E6DA2756787000C43CC1 /* Carousels */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6DB275678A200C43CC1 /* CarouselCollectionView.swift */,
+				4380E6DF275678FA00C43CC1 /* Models.swift */,
+				4380E6DD275678D700C43CC1 /* CarouselCollectionViewCell.swift */,
+			);
+			path = Carousels;
+			sourceTree = "<group>";
+		};
+		4380E6E12757821100C43CC1 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6E22757824100C43CC1 /* SearchView.swift */,
+				4380E6E42757999D00C43CC1 /* ServiceModel.swift */,
+				4380E6E92757AB1100C43CC1 /* ServiceCell.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		4380E6E62757A1C800C43CC1 /* Ordering */ = {
+			isa = PBXGroup;
+			children = (
+				4380E6E72757A1F400C43CC1 /* OrderingStep1View.swift */,
+				43E91090278DC090001363B3 /* OrderingStep2View.swift */,
+			);
+			path = Ordering;
+			sourceTree = "<group>";
+		};
+		43E91089278C4984001363B3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				43E9108A278C4999001363B3 /* AuthManager.swift */,
+				43E9108C278C6924001363B3 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		557CEC3F282E62D400024532 /* OrderingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC40282E62D400024532 /* GeneralOrderInfo */,
+				557CEC5B282E62D400024532 /* ChooseOrderAddress */,
+				557CEC51282E62D400024532 /* AddNewAddress */,
+				557CEC4A282E62D400024532 /* ChooseOrderDate */,
+				557CEC57282E62D400024532 /* ProcessedOrder */,
+			);
+			path = OrderingFlow;
+			sourceTree = "<group>";
+		};
+		557CEC40282E62D400024532 /* GeneralOrderInfo */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC41282E62D400024532 /* GeneralOrderInfoPhotosFooterReusableView.swift */,
+				557CEC42282E62D400024532 /* GeneralOrderInfoTaskDescriptionHeaderReusableView.swift */,
+				557CEC43282E62D400024532 /* GeneralOrderInfoGlobalHeaderReusableView.swift */,
+				557CEC44282E62D400024532 /* GeneralOrderInfoPhotosItemCollectionViewCell.swift */,
+				557CEC45282E62D400024532 /* GeneralOrderInfoPhotosHeaderReusableView.swift */,
+				557CEC46282E62D400024532 /* GeneralOrderInfoPhotosAddCollectionViewCell.swift */,
+				557CEC47282E62D400024532 /* GeneralOrderInfoCollectionViewController.swift */,
+				557CEC48282E62D400024532 /* GeneralOrderInfoCollectionView.swift */,
+				557CEC49282E62D400024532 /* GeneralOrderInfoTaskDescriptionCollectionViewCell.swift */,
+			);
+			path = GeneralOrderInfo;
+			sourceTree = "<group>";
+		};
+		557CEC4A282E62D400024532 /* ChooseOrderDate */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC4B282E62D400024532 /* ChooseOrderDateView.swift */,
+				557CEC4C282E62D400024532 /* ChooseOrderDateTimePickerItem.swift */,
+				557CEC4D282E62D400024532 /* ChooseOrderDateAvailabilityView.swift */,
+				557CEC4E282E62D400024532 /* ChooseOrderDateViewController.swift */,
+				557CEC4F282E62D400024532 /* ChooseOrderDateBottomView.swift */,
+				557CEC50282E62D400024532 /* ChooseOrderDateDayPickerItem.swift */,
+			);
+			path = ChooseOrderDate;
+			sourceTree = "<group>";
+		};
+		557CEC51282E62D400024532 /* AddNewAddress */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC52282E62D400024532 /* AddNewAddressGlobalHeaderReusableView.swift */,
+				557CEC53282E62D400024532 /* AddNewAddressTextFieldCollectionViewCell.swift */,
+				557CEC54282E62D400024532 /* AddNewAddressTextField.swift */,
+				557CEC55282E62D400024532 /* AddNewAddressCollectionView.swift */,
+				557CEC56282E62D400024532 /* AddNewAddressCollectionViewController.swift */,
+			);
+			path = AddNewAddress;
+			sourceTree = "<group>";
+		};
+		557CEC57282E62D400024532 /* ProcessedOrder */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC58282E62D400024532 /* ProcessedOrderViewController.swift */,
+				557CEC59282E62D400024532 /* ProcessedOrderBottomView.swift */,
+				557CEC5A282E62D400024532 /* ProcessedOrderView.swift */,
+			);
+			path = ProcessedOrder;
+			sourceTree = "<group>";
+		};
+		557CEC5B282E62D400024532 /* ChooseOrderAddress */ = {
+			isa = PBXGroup;
+			children = (
+				557CEC5C282E62D400024532 /* ChooseOrderAddressCollectionView.swift */,
+				557CEC5D282E62D400024532 /* ChooseOrderAddressAddCollectionViewCell.swift */,
+				557CEC5E282E62D400024532 /* ChooseOrderAddressItemCollectionViewCell.swift */,
+				557CEC5F282E62D400024532 /* ChooseOrderAddressCollectionViewController.swift */,
+			);
+			path = ChooseOrderAddress;
+			sourceTree = "<group>";
+		};
+		95F00F77A2E26E9171569D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A80BEBF545052B3C6E59CFC /* Pods-SB-Santehnik-App.debug.xcconfig */,
+				B95474BED7F0F37899B1CC97 /* Pods-SB-Santehnik-App.release.xcconfig */,
+				2331F2413018DC17E9C02F58 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.debug.xcconfig */,
+				F9CCED01F581535772A37E76 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.release.xcconfig */,
+				159568EF045E4207B74D6C12 /* Pods-SB-Santehnik-AppTests.debug.xcconfig */,
+				53E5E298C3F9D4369F23F4FE /* Pods-SB-Santehnik-AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F05B666BEFDB3AC5F33D7B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F808848DD4BCCABA8758F1 /* Pods_SB_Santehnik_App.framework */,
+				D9D344E2BE6FD7BC2A077CA7 /* Pods_SB_Santehnik_App_SB_Santehnik_AppUITests.framework */,
+				EED197C4DCCECF62463F7413 /* Pods_SB_Santehnik_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4380E69B275668FD00C43CC1 /* SB-Santehnik-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4380E6C9275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-App" */;
+			buildPhases = (
+				8256E344638742686E4876B5 /* [CP] Check Pods Manifest.lock */,
+				4380E698275668FD00C43CC1 /* Sources */,
+				4380E699275668FD00C43CC1 /* Frameworks */,
+				4380E69A275668FD00C43CC1 /* Resources */,
+				21E9842AFCC630AA79DEE88F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SB-Santehnik-App";
+			productName = "SB-Santehnik-App";
+			productReference = 4380E69C275668FD00C43CC1 /* SB-Santehnik-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4380E6B4275668FF00C43CC1 /* SB-Santehnik-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4380E6CC275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-AppTests" */;
+			buildPhases = (
+				8FE4BAF260A8F9B7738DFAFA /* [CP] Check Pods Manifest.lock */,
+				4380E6B1275668FF00C43CC1 /* Sources */,
+				4380E6B2275668FF00C43CC1 /* Frameworks */,
+				4380E6B3275668FF00C43CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4380E6B7275668FF00C43CC1 /* PBXTargetDependency */,
+			);
+			name = "SB-Santehnik-AppTests";
+			productName = "SB-Santehnik-AppTests";
+			productReference = 4380E6B5275668FF00C43CC1 /* SB-Santehnik-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4380E6BE275668FF00C43CC1 /* SB-Santehnik-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4380E6CF275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-AppUITests" */;
+			buildPhases = (
+				48355AD4747C2D400B0A0D03 /* [CP] Check Pods Manifest.lock */,
+				4380E6BB275668FF00C43CC1 /* Sources */,
+				4380E6BC275668FF00C43CC1 /* Frameworks */,
+				4380E6BD275668FF00C43CC1 /* Resources */,
+				AE53BF5D1159295995B4E5EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4380E6C1275668FF00C43CC1 /* PBXTargetDependency */,
+			);
+			name = "SB-Santehnik-AppUITests";
+			productName = "SB-Santehnik-AppUITests";
+			productReference = 4380E6BF275668FF00C43CC1 /* SB-Santehnik-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4380E694275668FD00C43CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4380E69B275668FD00C43CC1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4380E6B4275668FF00C43CC1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4380E69B275668FD00C43CC1;
+					};
+					4380E6BE275668FF00C43CC1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4380E69B275668FD00C43CC1;
+					};
+				};
+			};
+			buildConfigurationList = 4380E697275668FD00C43CC1 /* Build configuration list for PBXProject "SB-Santehnik-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4380E693275668FD00C43CC1;
+			productRefGroup = 4380E69D275668FD00C43CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4380E69B275668FD00C43CC1 /* SB-Santehnik-App */,
+				4380E6B4275668FF00C43CC1 /* SB-Santehnik-AppTests */,
+				4380E6BE275668FF00C43CC1 /* SB-Santehnik-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4380E69A275668FD00C43CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431DABA7276226AF008265A7 /* Gerbera-Medium.ttf in Resources */,
+				4380E6AF275668FF00C43CC1 /* LaunchScreen.storyboard in Resources */,
+				431DABAF276226DA008265A7 /* Gerbera.ttf in Resources */,
+				431DABAB276226CC008265A7 /* Gerbera-Bold.ttf in Resources */,
+				4380E6AC275668FF00C43CC1 /* Assets.xcassets in Resources */,
+				4380E6A7275668FD00C43CC1 /* Main.storyboard in Resources */,
+				433DFC9F27A04637005E9353 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6B3275668FF00C43CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431DABB0276226DA008265A7 /* Gerbera.ttf in Resources */,
+				431DABAC276226CC008265A7 /* Gerbera-Bold.ttf in Resources */,
+				431DABA8276226AF008265A7 /* Gerbera-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6BD275668FF00C43CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431DABB1276226DA008265A7 /* Gerbera.ttf in Resources */,
+				431DABAD276226CC008265A7 /* Gerbera-Bold.ttf in Resources */,
+				431DABA9276226AF008265A7 /* Gerbera-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E9842AFCC630AA79DEE88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App/Pods-SB-Santehnik-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App/Pods-SB-Santehnik-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App/Pods-SB-Santehnik-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48355AD4747C2D400B0A0D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8256E344638742686E4876B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SB-Santehnik-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE4BAF260A8F9B7738DFAFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SB-Santehnik-AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE53BF5D1159295995B4E5EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests/Pods-SB-Santehnik-App-SB-Santehnik-AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4380E698275668FD00C43CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4380E6E82757A1F400C43CC1 /* OrderingStep1View.swift in Sources */,
+				4345192E27986C000021D6E0 /* onboardingSlide.swift in Sources */,
+				4380E6DE275678D700C43CC1 /* CarouselCollectionViewCell.swift in Sources */,
+				557CEC6E282E62D400024532 /* ChooseOrderDateDayPickerItem.swift in Sources */,
+				43139B7227AB3FA40000C0A4 /* ConferenceVideoCell.swift in Sources */,
+				4380E6A4275668FD00C43CC1 /* ViewController.swift in Sources */,
+				557CEC6B282E62D400024532 /* ChooseOrderDateAvailabilityView.swift in Sources */,
+				4380E6E32757824200C43CC1 /* SearchView.swift in Sources */,
+				557CEC60282E62D400024532 /* GeneralOrderInfoPhotosFooterReusableView.swift in Sources */,
+				557CEC65282E62D400024532 /* GeneralOrderInfoPhotosAddCollectionViewCell.swift in Sources */,
+				557CEC81282E631900024532 /* NavigationItemTitleView.swift in Sources */,
+				557CEC82282E631900024532 /* OutlineBigButton.swift in Sources */,
+				4380E6A0275668FD00C43CC1 /* AppDelegate.swift in Sources */,
+				557CEC61282E62D400024532 /* GeneralOrderInfoTaskDescriptionHeaderReusableView.swift in Sources */,
+				557CEC78282E62D400024532 /* ChooseOrderAddressAddCollectionViewCell.swift in Sources */,
+				4380E6DC275678A200C43CC1 /* CarouselCollectionView.swift in Sources */,
+				557CEC7A282E62D400024532 /* ChooseOrderAddressCollectionViewController.swift in Sources */,
+				557CEC75282E62D400024532 /* ProcessedOrderBottomView.swift in Sources */,
+				557CEC63282E62D400024532 /* GeneralOrderInfoPhotosItemCollectionViewCell.swift in Sources */,
+				557CEC68282E62D400024532 /* GeneralOrderInfoTaskDescriptionCollectionViewCell.swift in Sources */,
+				557CEC67282E62D400024532 /* GeneralOrderInfoCollectionView.swift in Sources */,
+				4345192A2798578E0021D6E0 /* OnboardingViewController.swift in Sources */,
+				557CEC71282E62D400024532 /* AddNewAddressTextField.swift in Sources */,
+				431BCB972770E16B00E97708 /* PochtaVCViewController.swift in Sources */,
+				557CEC6A282E62D400024532 /* ChooseOrderDateTimePickerItem.swift in Sources */,
+				4380E6E52757999D00C43CC1 /* ServiceModel.swift in Sources */,
+				557CEC76282E62D400024532 /* ProcessedOrderView.swift in Sources */,
+				4380E6D727566E4600C43CC1 /* ServiceViewController.swift in Sources */,
+				557CEC70282E62D400024532 /* AddNewAddressTextFieldCollectionViewCell.swift in Sources */,
+				43E9108D278C6924001363B3 /* AuthViewController.swift in Sources */,
+				43E9108B278C4999001363B3 /* AuthManager.swift in Sources */,
+				4380E6EA2757AB1100C43CC1 /* ServiceCell.swift in Sources */,
+				557CEC72282E62D400024532 /* AddNewAddressCollectionView.swift in Sources */,
+				4380E6AA275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodeld in Sources */,
+				431BCB992770E1EA00E97708 /* AccountViewController.swift in Sources */,
+				557CEC66282E62D400024532 /* GeneralOrderInfoCollectionViewController.swift in Sources */,
+				4380E6E0275678FA00C43CC1 /* Models.swift in Sources */,
+				557CEC6C282E62D400024532 /* ChooseOrderDateViewController.swift in Sources */,
+				557CEC7F282E631900024532 /* UIFont+Additions.swift in Sources */,
+				557CEC62282E62D400024532 /* GeneralOrderInfoGlobalHeaderReusableView.swift in Sources */,
+				431D387827A9DABF003FB893 /* TitleSupplementaryView.swift in Sources */,
+				557CEC6F282E62D400024532 /* AddNewAddressGlobalHeaderReusableView.swift in Sources */,
+				43E91091278DC090001363B3 /* OrderingStep2View.swift in Sources */,
+				4380E6D427566AAB00C43CC1 /* TestAuthView.swift in Sources */,
+				43139B7427AB3FDB0000C0A4 /* ConferenceVideoController.swift in Sources */,
+				557CEC73282E62D400024532 /* AddNewAddressCollectionViewController.swift in Sources */,
+				557CEC69282E62D400024532 /* ChooseOrderDateView.swift in Sources */,
+				4380E6A2275668FD00C43CC1 /* SceneDelegate.swift in Sources */,
+				557CEC79282E62D400024532 /* ChooseOrderAddressItemCollectionViewCell.swift in Sources */,
+				557CEC77282E62D400024532 /* ChooseOrderAddressCollectionView.swift in Sources */,
+				557CEC64282E62D400024532 /* GeneralOrderInfoPhotosHeaderReusableView.swift in Sources */,
+				435BBAA7279FF42F00DB31F4 /* OnboardingCollectionViewCell.swift in Sources */,
+				557CEC80282E631900024532 /* BigButton.swift in Sources */,
+				557CEC6D282E62D400024532 /* ChooseOrderDateBottomView.swift in Sources */,
+				557CEC74282E62D400024532 /* ProcessedOrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6B1275668FF00C43CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4380E6BA275668FF00C43CC1 /* SB_Santehnik_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4380E6BB275668FF00C43CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4380E6C4275668FF00C43CC1 /* SB_Santehnik_AppUITests.swift in Sources */,
+				4380E6C6275668FF00C43CC1 /* SB_Santehnik_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4380E6B7275668FF00C43CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4380E69B275668FD00C43CC1 /* SB-Santehnik-App */;
+			targetProxy = 4380E6B6275668FF00C43CC1 /* PBXContainerItemProxy */;
+		};
+		4380E6C1275668FF00C43CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4380E69B275668FD00C43CC1 /* SB-Santehnik-App */;
+			targetProxy = 4380E6C0275668FF00C43CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4380E6A5275668FD00C43CC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4380E6A6275668FD00C43CC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4380E6AD275668FF00C43CC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4380E6AE275668FF00C43CC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4380E6C7275668FF00C43CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4380E6C8275668FF00C43CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4380E6CA275668FF00C43CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A80BEBF545052B3C6E59CFC /* Pods-SB-Santehnik-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 363BWA2L4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SB-Santehnik-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rocket10.SB-Santehnik-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4380E6CB275668FF00C43CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95474BED7F0F37899B1CC97 /* Pods-SB-Santehnik-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 363BWA2L4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SB-Santehnik-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rocket10.SB-Santehnik-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4380E6CD275668FF00C43CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159568EF045E4207B74D6C12 /* Pods-SB-Santehnik-AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocket10.SB-Santehnik-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SB-Santehnik-App.app/SB-Santehnik-App";
+			};
+			name = Debug;
+		};
+		4380E6CE275668FF00C43CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E5E298C3F9D4369F23F4FE /* Pods-SB-Santehnik-AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocket10.SB-Santehnik-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SB-Santehnik-App.app/SB-Santehnik-App";
+			};
+			name = Release;
+		};
+		4380E6D0275668FF00C43CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2331F2413018DC17E9C02F58 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocket10.SB-Santehnik-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SB-Santehnik-App";
+			};
+			name = Debug;
+		};
+		4380E6D1275668FF00C43CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CCED01F581535772A37E76 /* Pods-SB-Santehnik-App-SB-Santehnik-AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocket10.SB-Santehnik-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SB-Santehnik-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4380E697275668FD00C43CC1 /* Build configuration list for PBXProject "SB-Santehnik-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4380E6C7275668FF00C43CC1 /* Debug */,
+				4380E6C8275668FF00C43CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4380E6C9275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4380E6CA275668FF00C43CC1 /* Debug */,
+				4380E6CB275668FF00C43CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4380E6CC275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4380E6CD275668FF00C43CC1 /* Debug */,
+				4380E6CE275668FF00C43CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4380E6CF275668FF00C43CC1 /* Build configuration list for PBXNativeTarget "SB-Santehnik-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4380E6D0275668FF00C43CC1 /* Debug */,
+				4380E6D1275668FF00C43CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4380E6A8275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4380E6A9275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodel */,
+			);
+			currentVersion = 4380E6A9275668FD00C43CC1 /* SB_Santehnik_App.xcdatamodel */;
+			path = SB_Santehnik_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4380E694275668FD00C43CC1 /* Project object */;
+}
